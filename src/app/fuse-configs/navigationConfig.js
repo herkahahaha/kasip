@@ -1,5 +1,5 @@
 // import { MaterialUIComponentsNavigation } from "app/main/documentation/material-ui-components/MaterialUIComponentsNavigation";
-import { authRoles } from "app/auth";
+// import { authRoles } from "app/auth";
 
 const navigationConfig = [
   {
@@ -37,13 +37,13 @@ const navigationConfig = [
             url: "/vessel/products",
             exact: true
           },
-          {
-            id: "vessel-product-detail",
-            title: "Product Detail",
-            type: "item",
-            url: "/vessel/products/1/a-walk-amongst-friends-canvas-print",
-            exact: true
-          },
+          // {
+          //   id: "vessel-product-detail",
+          //   title: "Product Detail",
+          //   type: "item",
+          //   url: "/vessel/products/1/a-walk-amongst-friends-canvas-print",
+          //   exact: true
+          // },
           {
             id: "vessel-new-product",
             title: "New Product",
@@ -57,14 +57,14 @@ const navigationConfig = [
             type: "item",
             url: "/vessel/orders",
             exact: true
-          },
-          {
-            id: "vessel-order-detail",
-            title: "Order Detail",
-            type: "item",
-            url: "/vessel/orders/1",
-            exact: true
           }
+          // {
+          //   id: "vessel-order-detail",
+          //   title: "Order Detail",
+          //   type: "item",
+          //   url: "/vessel/orders/1",
+          //   exact: true
+          // }
         ]
       }
     ]

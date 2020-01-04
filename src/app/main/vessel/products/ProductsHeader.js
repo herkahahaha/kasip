@@ -9,7 +9,7 @@ import * as Actions from "../store/actions";
 function ProductsHeader(props) {
   const dispatch = useDispatch();
   const searchText = useSelector(
-    ({ eCommerceApp }) => eCommerceApp.products.searchText
+    ({ vesselApp }) => vesselApp.products.searchText
   );
   const mainTheme = useSelector(({ fuse }) => fuse.settings.mainTheme);
 
